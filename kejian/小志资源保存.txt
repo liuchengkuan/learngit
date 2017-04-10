@@ -1,0 +1,115 @@
+https://github.com/liftoff/GateOne 基于HTML5网络的终端仿真器和SSH客户端
+https://my.oschina.net/HankCN/blog/187133
+
+
+http://www.cnblogs.com/doit8791/p/4093808.html  Spring单例与线程安全小结
+
+https://www.pureftpd.org/project/pure-ftpd/download
+
+https://wiki.centos.org/zh/Download centos镜像
+
+https://github.com/travist/jsencrypt   用于执行OpenSSL RSA加密，解密和密钥生成的Javascript库。
+
+
+https://www.douban.com/group/topic/15558388/?qq-pf-to=pcqq.c2c  VirtualBox虚拟机网络设置（四种方式）
+
+
+https://www.mockplus.cn/
+
+
+https://github.com/fex-team/webuploader/  WebUploader 文件上传 
+
+
+http://git.oschina.net/free/Mapper MyBatis通用Mapper3
+
+
+https://github.com/thinkgem/jeesite/blob/master/src/test/java/com/thinkgem/jeesite/tools/CodeCounter.java  统计代码行数
+
+
+http://blog.csdn.net/kongqz/article/details/3971263 tomcat 远程调试
+
+
+
+http://www.voidcn.com/blog/u011637069/article/p-5769643.html  SpringMVC中controller返回图片
+
+
+http://www.cnblogs.com/aigongsi/archive/2012/04/01/2429166.html   java中volatile关键字的含义
+
+
+http://www.jianshu.com/p/7eaaa19a0e69   Java设计模式 - 简单工厂模式
+
+
+http://www.im2maker.com/
+
+https://my.oschina.net/aiguozhe/blog/33994   SSH免密码登录
+
+http://disconf.readthedocs.io/zh_CN/latest/   Disconf专注于各种「分布式系统配置管理」的「通用组件」和「通用平台」, 提供统一的「配置管理服务」。
+
+http://vernonzheng.com/2015/02/09/%E5%BC%80%E6%BA%90%E5%88%86%E5%B8%83%E5%BC%8F%E9%85%8D%E7%BD%AE%E4%B8%AD%E5%BF%83%E9%80%89%E5%9E%8B/    开源分布式配置中心选型
+
+主要是关注etcd和zookeeper
+
+https://tumutanzi.com/archives/13005
+ ShadowSocks的翻墙原理
+ 
+ 
+ https://m.aliyun.com/yunqi/articles/50480  一个轻量级分布式RPC框架--NettyRpc
+ 
+http://www.cnblogs.com/zhoujinyi/p/3437475.html   MySQL 四种事务隔离级的说明
+
+
+http://blog.csdn.net/fjslovejhl/article/details/17025001   无锁编程（CAS以及java的实现）
+
+https://github.com/AlDanial/cloc  cloc以许多编程语言计算空白行，注释行和源代码的物理行。
+
+
+http://man.linuxde.net/rsync   rsync命令是一个远程数据同步工具
+
+http://www.jianshu.com/p/d7a1dfea76d8  Vagrant+Virtualbox搭建linux开发环境
+
+https://ffmpeg.zeranoe.com/builds/
+
+http://1234567aaa.blog.51cto.com/373182/317802   nginx的五种负载算法
+
+http://www.cnblogs.com/flyfish2012/p/3832226.html   Nginx 向客户端输出真实的后端IP地址
+
+
+
+
+ https://linuxtoy.org/archives/bash-shortcuts.html  生活在 Bash shell 中，熟记以下快捷键
+ 
+ 
+ http://www.jianshu.com/p/da26df4f7d60   Keepalived+Nginx实现高可用Web负载均衡
+ 
+ zip -r 100_17.zip 17 -i "17/*/*/origin/*"
+ 
+ 
+ https://www.lagou.com/  招聘
+ 
+ 
+ https://github.com/gnosek/nginx-upstream-fair   Nginx Upstream Fair Proxy Load Balancer
+ 
+ 
+ http://blog.csdn.net/h348592532/article/details/45980215   jsp自定标签（并且注入spring容器中的bean）
+ 
+ 
+ https://buluo.qq.com/p/detail.html?bid=237250&pid=5730353-1489645670&from=grp_sub_obj  【重点】Java代码性能优化总结
+ 
+ 
+ http://blog.csdn.net/lizhitao/article/details/23743821   apache Kafka概要介绍
+ 
+ https://tech.imdada.cn/2015/12/03/service-registry-and-discovery-with-zk/   基于Zookeeper的服务注册与发现
+ 
+ 
+ http://stackoverflow.com/questions/3514784/what-is-the-best-way-to-detect-a-mobile-device-in-jquery  
+ 
+ https://app.yinxiang.com/notelink/Login.action
+ 
+ 
+http://stackoverflow.com/questions/16870615/extracting-resultsetmetadata-from-spring-jdbctemplate  
+
+
+https://m.aliyun.com/yunqi/articles/14318
+
+
+http://www.jianshu.com/p/5f908339d36d  linux服务器性能监控-nmon（二）
