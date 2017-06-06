@@ -1,0 +1,454 @@
+﻿useradd -s /bin/bash vcc
+
+
+进入vcc的家目录下， su - vcc
+
+unzip apache-tomcat-7.0.44.zip
+tar -zxvf jdk-8u51-linux-x64.tar.gz
+
+vi .bashrc
+
+JAVA_HOME=$HOME/jdk1.8.0_51/
+PATH=$PATH:$HOME/bin:$JAVA_HOME/bin:.
+
+vim ~/.bashrc
+source ~/.bashrc
+
+set JAVA_HOME=$HOME/jdk1.8.0_51/
+　　　　　　export JAVA_HOME
+　　　　　　set PATH=$JAVA_HOME/bin:$PATH
+            　　　export PATH
+            　　　set CLASSPATH=.:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+            　　　export CLASSPATH
+工资单
+http://mail.qxmagic.com/alimail/auth/login
+
+刘成宽：lchengkuan@qxmagic.com
+
+
+
+工资条邮箱查询
+http://mail.qxmagic.com/alimail/auth/login
+2016/1/18 15:11:05
+泛盈小陈 2016/1/18 15:11:05
+个人账号：
+韩艳：hyan@qxmagic.com
+刘卫平：lweiping@qxmagic.com
+崔鹏飞：cpengfei@qxmagic.com
+刘成宽：lchengkuan@qxmagic.com
+邬宗俊：wzongjun@qxmagic.com
+登录后需要修改密码
+初始密码：QXmagic123  
+
+
+
+
+
+
+
+
+/**凤凰项目*/
+svn://10.2.176.34/基础平台/02开发库/03数据库
+操作页面：http://10.2.176.192:8080/phoenixCloud/system/login.do     sysAdmin  1
+
+
+
+http://180.97.46.192:8080/secure/Dashboard.jspa
+
+
+http://10.2.176.15/secure/Dashboard.jspa
+范强健  fqj   123456
+秦雨      qy   
+朱克丹  zkd
+徐俊      xj  
+刘成宽   lck 
+邬宗俊   wzj
+陈鹏飞  cpf
+
+
+maven编译项目命令
+
+mvn clean package -DskipTests
+
+
+
+/**rz上传文件命令*/
+rz -bey
+
+/**查看所有日志*/
+less logs/catalina.out
+shift + G 回到最底部
+/**从一个服务器复制文件到另一个服务器*/
+scp root@{ip}:{path_to_your_file}   /{path_to_your_local}
+
+/**解压*/
+tar xzf jdk-7u80-linux-x64.tar.gz -C /usr/local/java
+
+vi ~/.bash_profile
+/**让配置立即生效*/
+source ~/.bash_profile
+
+
+mvn clean package -DskipTests -Psit
+
+/**启动*/
+sh start.sh
+/**查看，jar 项目日志*/
+less fhres_task.out
+
+JAVA_HOME=/usr/lib/jvm/java-1.7.0-openjdk-1.7.0.45.x86_64
+
+
+sz 文件名  下载文件
+
+
+
+mvn clean package -DskipTests -Psit -pl fhres_task -am
+
+-am:同时构所列模块的依赖模块 
+-amd:同时构建依赖于所列模块的模块 
+-pl <arg> :构建指定的模块，之间用逗号分隔 
+
+使用-am，所以fhres_task依赖的fhres_common也会被一并构建
+
+
+//maven generator 编译命令
+mvn mybatis-generator:generate 
+
+
+
+/设置服务器能允许访问端口/
+/etc/sysconfig/iptables
+重启服务
+service iptables restart
+
+
+//动态加载 插件
+JRebel
+
+
+
+http://www.ishadowsocks.net/
+钉钉账号
+18626853187
+
+123456
+
+chmode +x (价值型权限)
+
+
+apache Shiro----权限管理
+
+
+伊塞亚·托马斯
+内特-罗宾逊
+
+
+//linux  管理界面 下载运行命令
+curl https://raw.githubusercontent.com/ajenti/ajenti/1.x/scripts/install-rhel.sh | sh
+
+
+
+
+
+root	
+base720!
+
+
+
+scp root@10.2.176.33:/usr/local/packages/* ./
+
+
+tar xzf /home/fh/packages/jdk-7u79-linux-x64.tar.gz -C /usr/local/java/
+
+
+
+ ~/.bash_profile  或者etc profile
+ 
+export JAVA_HOME=/usr/local/java/jdk1.7.0_79
+export CLASSPATH=.:$JAVA_HOME/jre/lib/rt.jar:$JAVA_HOME/lib/dt.jar:$JAVA_HOME/lib/tools.jar
+export PATH=$PATH:$JAVA_HOME/bin
+
+//软连接
+ln -s /usr/local/java/jdk1.7.0_79/bin/java /usr/bin/java
+
+
+/usr/local/tomcats/tomcat-8080
+
+tar xzf /home/fh/packages/apache-tomcat-7.0.63.tar.gz -C /usr/local/tomcats/tomcat-8080/
+source /etc/profile
+
+
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 8080 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 80 -j ACCEPT
+-A INPUT -m state --state NEW -m tcp -p tcp --dport 8000 -j ACCEPT
+
+
+yum install gcc gcc-c++
+
+
+//持续集成  规范的代码管理、测试、部署都应该有个管理平台----Jenkins还可以通过加插件的方式，做代码的规范审查、测试覆盖率等各种工作
+Jenkins
+
+
+
+scp root@10.2.176.6:/home/fh/packages/lrzsz-0.12.20.tar.gz /home/fh/packages/
+chmod +x bin/*sh bin/ff*
+
+rm /etc/.hosts.swp
+//压缩包解压  压缩命令
+jar xf fhres_task-1.0-SNAPSHOT.jar  spring/res-wo-image.xml
+jar uf fhres_task-1.0-SNAPSHOT.jar  spring/res-wo-image.xml
+
+
+task模块增加了一个清除缓存的方法
+运行task模块的主机执行telnet localhost 9000
+输入{"optName": "clearCache"}就可以清除缓存了
+
+
+//且日志
+
+nohup $JAVA_HOME/bin/java $RUN_OPTS $MAIN_CLASS 2>&1 | cronolog $BIN_HOME/deploy.logdeploy_%Y%m%d%h%M.log &
+nohup $JAVA_HOME/bin/java $RUN_OPTS $MAIN_CLASS >> $BIN_HOME/$APP_SN.out 2>&1 &
+
+
+/home/fh/project/fhres/fhres_task/target/fhres_task-distribution.zip
+
+
+//单点登录
+cas
+
+//系统 常量 
+ binHome = System.getProperty("user.dir");
+ LOGGER.debug("bin.home: {}", binHome);
+String os = System.getProperty("os.name").toLowerCase();
+
+//查看java进程
+ jps -v
+
+ 
+ //查看进程
+jps -v|grep zookeeper
+kill -9 -进程号
+//客户端链接zookeeper
+sh zkCli.sh -server 10.2.176.192:2181
+
+
+
+
+//美如普  视频信息查看
+http://10.2.176.141/manage/login.html
+system
+merop.com.com
+
+
+<Manager className="org.apache.catalina.session.PersistentManager"  saveOnRestart="false">
+
+
+
+http://10.2.180.33:8090/pages/viewpage.action?pageId=1081861
+gongxzh
+gongxzh123
+
+
+
+ctrl+shift+R  idea 查询类
+
+
+profix  ---linux 软件安装指定目录
+
+shiro
+
+
+
+//查询数据库查询速度
+#set global slow_query_log=on
+show variables like '%slow%'
+sql 走索引情况
+EXPLAIN SELECT * FROM `res_resource` WHERE rs_id IN (1,2,3,4)
+
+<!--周丽高明明-->
+
+http://180.97.46.41:8001/page/login.aspx
+
+周灵敏 2016/12/12 星期一 15:28:47
+fhshuxue@anylearn.cn/111111
+
+
+
+<!--初高中衔接课程数据库-->
+10.2.176.177  fh2-20140620
+root/fenghuang2014  
+
+
+
+测试
+http://10.2.176.147/testlink/index.php?caller=login
+刘成宽的账号liuck，密码123456
+
+
+大话设计模式（书）
+
+disconf-----（配置信息推送）
+
+
+https://github.com/thinkgem/jeesite/blob/master/src/test/java/com/thinkgem/jeesite/tools/CodeCounter.java  （统计代码行数）
+
+
+
+https://my.oschina.net/bv10000/blog/604596 (大数据优化)
+
+
+
+http://blog.csdn.net/kongqz/article/details/3971263 
+tomcat远程调试，以后测试服务器上要是测试可以使用这个来远程调试
+
+Hudson是Jenkins的前身，是基于Java开发的一种持续集成工具，用于监控程序重复的工作，
+
+
+
+次MySQL5.7线上故障分析
+http://mp.weixin.qq.com/s?__biz=MzAwMDU2ODU3MA==&mid=2247484146&idx=1&sn=167e5609216156d92a7043adabbf73a5&chksm=9ae7bf67ad9036716d351623701ea60cbf29f25054b67e53f3f96b3460c04bb909d1c029c6e6#rd
+
+
+dmz
+简书
+
+
+
+http://yuandingjiema.iteye.com/blog/1752544  maven发布项目到tomcat
+
+
+
+tomcat jndi tomcat配置数据源
+
+http://blog.csdn.net/wind520/article/details/9202555
+http://10.2.153.158:8080/fhres_manage/druid/sql.html  
+<servlet>
+        <servlet-name>DruidStatView</servlet-name>
+        <servlet-class>com.alibaba.druid.support.http.StatViewServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>DruidStatView</servlet-name>
+        <url-pattern>/druid/*</url-pattern>
+    </servlet-mapping>
+	druid 监控页面
+	
+	
+	
+	npm run watch
+	
+	
+http://ifeve.com/ 并发网
+
+
+
+double服务框架
+
+xmpp即时通讯
+	
+	
+//更具 内容匹配 后缀为jsp的文件
+find . -name "*.jsp" -type f|xargs grep "xxxx"
+
+
+
+admin dmDevUse
+
+
+JSch 文件拷贝
+
+
+http://disconf.readthedocs.io/
+
+
+微博轻量级RPC框架Motan正式开源
+https://m.aliyun.com/yunqi/articles/50480
+
+一个轻量级分布式RPC框架--NettyRpc
+
+https://github.com/alibaba/druid/wiki/%E9%85%8D%E7%BD%AE-wallfilter
+
+//数据库 服务器 定时备份
+crontab
+
+crond
+
+
+ps -ef|grep redis
+
+
+apache Cordova
+
+Vagrant+Virtualbox搭建
+
+
+cordova build android
+
+cordova platform add android
+
+cordova build android
+
+
+As could be guessed, there is a script that is being run when you issue the "cordova build android" command. This was to be found in order to see the config specified for gradle version.
+
+You must go and check the following js file:
+
+$PROJECT_ROOT/platforms/android/cordova/lib/builders/GradleBuilder.js
+
+Then find the following variable:
+
+GradleBuilder.prototype.prepEnv
+And check the distributionUrl variable:
+
+var distributionUrl = process.env['CORDOVA_ANDROID_GRADLE_DISTRIBUTION_URL'] || 'http\\://services.gradle.org/distributions/gradle-2.2.1-all.zip';
+That's what you are looking for and what you need to change to gradle-2.10-all.zip url;
+
+Now you can run the build command, there you go !
+
+This is the answer provided by the following SO; install gradle for using in cordova build android
+
+
+
+genymotion
+
+
+
+//linux 提示
+shell: zsh
+oh-my-zsh插件
+
+
+linux替换换行符
+%s/\\//g
+
+python fh_login.py
+
+
+Keepalived
+
+//对比工具
+Beyond Compare 4
+
+zip -r 100_17.zip 17 -i "17/*/*/origin/*"
+
+http://git.oschina.net/
+
+
+zip -rq fhres_fs_20170328.zip fhres_fs 
+
+
+//生成公钥和私钥
+ ssh-keygen -t rsa
+//连接 远程 主机
+ssh -i ~/.ssh/lck_128_rsa root@10.2.176.128
+
+
+Flume日志收集
+
+
+js截图插件
+rasterizeHTML  
+
+
+jps -v
